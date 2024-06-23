@@ -15,6 +15,8 @@
 		4FCACF762C2778AF00139A5B /* AutoLayoutDSLUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCACF752C2778AF00139A5B /* AutoLayoutDSLUITestsLaunchTests.swift */; };
 		4FCACF892C27806600139A5B /* AutoLayoutDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCACF882C27806600139A5B /* AutoLayoutDSL.swift */; };
 		4FCACF8B2C2780C400139A5B /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCACF8A2C2780C400139A5B /* MainView.swift */; };
+		4FCACF8F2C282D6B00139A5B /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 4FCACF8D2C282D6B00139A5B /* LICENSE */; };
+		4FCACF902C282D6B00139A5B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4FCACF8E2C282D6B00139A5B /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		4FCACF752C2778AF00139A5B /* AutoLayoutDSLUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLayoutDSLUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		4FCACF882C27806600139A5B /* AutoLayoutDSL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLayoutDSL.swift; sourceTree = "<group>"; };
 		4FCACF8A2C2780C400139A5B /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		4FCACF8D2C282D6B00139A5B /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		4FCACF8E2C282D6B00139A5B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +83,9 @@
 			children = (
 				4FCACF862C27802100139A5B /* Source */,
 				4FCACF872C27802F00139A5B /* Example */,
-				4FCACF512C2778AE00139A5B /* AutoLayoutDSL */,
+				4FCACF8D2C282D6B00139A5B /* LICENSE */,
+				4FCACF8E2C282D6B00139A5B /* README.md */,
+				4FCACF602C2778AF00139A5B /* Info.plist */,
 				4FCACF682C2778AF00139A5B /* AutoLayoutDSLTests */,
 				4FCACF722C2778AF00139A5B /* AutoLayoutDSLUITests */,
 				4FCACF502C2778AE00139A5B /* Products */,
@@ -94,14 +100,6 @@
 				4FCACF6F2C2778AF00139A5B /* AutoLayoutDSLUITests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		4FCACF512C2778AE00139A5B /* AutoLayoutDSL */ = {
-			isa = PBXGroup;
-			children = (
-				4FCACF602C2778AF00139A5B /* Info.plist */,
-			);
-			path = AutoLayoutDSL;
 			sourceTree = "<group>";
 		};
 		4FCACF682C2778AF00139A5B /* AutoLayoutDSLTests */ = {
@@ -252,6 +250,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FCACF902C282D6B00139A5B /* README.md in Resources */,
+				4FCACF8F2C282D6B00139A5B /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,7 +445,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = M439QAGBDK;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = AutoLayoutDSL/Info.plist;
+				INFOPLIST_FILE = Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = "";
@@ -473,7 +473,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = M439QAGBDK;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = AutoLayoutDSL/Info.plist;
+				INFOPLIST_FILE = Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = "";
