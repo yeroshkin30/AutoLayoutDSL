@@ -127,7 +127,8 @@ In this example:
 
 ## Installation
 
-Just copy AutoLayoutDSL.swift file to your project.
+Just copy the `AutoLayoutDSL.swift` file to your project and start using it.
 
 ## License
 
+This project is licensed under the MIT License.
